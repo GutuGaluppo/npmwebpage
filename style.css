@@ -1,0 +1,263 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2{
+  font-weight: 300;
+}
+
+h1{
+  font-size: 2.5em;
+  text-align: left;
+  color: whitesmoke;
+}
+
+h2{
+  color: whitesmoke;
+  font-size: 1.7em;
+}
+
+h3{
+  color: rgb(49, 68, 88);
+}
+
+p, li{
+  color: whitesmoke;
+  font-weight: 100;
+  text-align: left;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 5px;
+}
+
+button{
+  font-size: 16px;
+  font-weight: lighter;
+  background-color: #fe8d00;
+  color: whitesmoke;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  padding: 7px 20px 7px 20px;
+}
+
+.section{
+  padding: 3% 20%;
+  margin: 0 auto;
+}
+
+/* - - - - NAV BAR - - - - -*/
+
+.nav-bar{
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 15px;
+  height: 60px;
+  vertical-align: middle;
+}
+
+.nav-bar a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  align-items: center;
+}
+
+.heart{
+  position: relative;
+  margin: 1%;
+  align-items: center;
+}
+
+.acronym{
+
+}
+
+.top-left{
+  margin: 10 auto;
+  align-items: center;
+}
+.top-links{
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  align-items: center;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  align-items: center;
+}
+
+.icons{
+  display: inline-block;
+  position: absolute;
+  align-items: right;
+  justify-content: space-between;
+}
+
+/* - - - - HEADER - - - - */
+
+
+.header{
+  position: relative;
+  padding: 2em;
+  align-content: center;
+  background-color: rgb(32, 101, 136)
+}
+
+.npmlogo{
+  position: relative;
+  float: left;
+  width: 10%;
+}
+
+.search-container{
+  position: relative;
+  float: left;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+#search-bar{
+  color: whitesmoke;
+  margin: 0 auto;
+  padding: 5px;
+  width: 100%;
+  height: 40px;
+  font-size: 1em;
+  border: 1px solid #D0CFCE;
+  outline: none;
+  background-color: rgb(31, 82, 111)
+}
+
+.bearlogo{
+  float: left;
+  width: 10%;
+}
+
+.bearlogo a{
+  display: inline-block
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+#buildthings {
+  margin: 0 200px;
+  align-items: center;
+  width: 50%;
+  color: whitesmoke;
+  padding: 80px;
+}
+
+#buildthings p{
+  position: relative;
+}
+
+
+/* --- --- Collaboration Section --- --- */
+
+#coll-sect{
+  background-color: rgb(39, 53, 71);
+  padding: 5% 20%;
+  margin: 0 auto;
+}
+
+.crew{
+  width: 50%;
+  padding: 70px;
+}
+
+.coll-text{
+  width: 600px;
+  color: whitesmoke;
+  position: relative;
+  float: right;
+}
+
+#coll-sect button{
+  margin: 5px;
+  background-color: rgb(203, 56, 55);
+}
+
+#coll-sect a{
+  margin: 5px;
+}
+
+/* --- --- What is npm Section --- --- */
+
+#wnpm-sect{
+  background-color: rgb(32, 101, 136);
+}
+
+#wnpm-sect text{
+  position: relative;
+}
+
+#wnpm-sect button{
+  margin: 5px;
+  background-color: rgb(49, 68, 88);
+}
+
+/* --- --- What can you make Section --- ---*/
+
+#t2{
+  
+}
+
+.h3{
+  
+  text-align: center;
+  color: rgb(83, 88, 98)
+}
+
+.t3{
+  color: rgb(135, 145, 156);
+  text-align: center;
+}
+
+#wcym-sect a{
+  color: rgb(208, 74, 73);
+}
+
+.icon{
+  position: relative;
+  margin: 5% auto;
+  
+}
+
+#find{
+  float:left;
+  width: 30%;
+  text-align: center;
+}
+
+#discover{
+  float:left;
+  width: 30%;
+  text-align: center;
+  margin: 0 5%;
+}
+
+#build{
+  float:left;
+  width: 30%;
+  text-align: center;
+}
+
+.clearfix{
+  clear: both;
+}
+
+/* --- --- Footer --- --- */
+
+footer{
+  width: 100%;
+  height: 1em;
+  background-color: rgb(39, 53, 71);
+}
